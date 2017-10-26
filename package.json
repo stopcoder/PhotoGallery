@@ -1,0 +1,33 @@
+{
+  "name": "photogallery",
+  "version": "1.0.0",
+  "description": "photo gallery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stopcoder/PhotoGallery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stopcoder/PhotoGallery/issues"
+  },
+  "homepage": "https://github.com/stopcoder/PhotoGallery#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jquery": "^3.1.1",
+    "justifiedGallery": "https://github.com/miromannino/Justified-Gallery/tarball/master",
+    "photoswipe": "^4.1.1",
+    "probe-image-size": "^3.0.0",
+    "pug": "^2.0.0-beta6",
+    "whatwg-fetch": "^2.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-execute": "^0.2.2"
+  }
+}

@@ -1,0 +1,23 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		title Photo gallery
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		script(src="js/fetch.js")
+		script(src="js/jquery.min.js")
+		script(src="js/jquery.justifiedGallery.js")
+		script(src="js/jquery.swipebox.js")
+		script(src="js/photoswipe.min.js")
+		script(src="js/photoswipe-ui-default.min.js")
+		link(rel="stylesheet" href="css/justifiedGallery.css")
+		link(rel="stylesheet" href="css/swipebox.css")
+		link(rel="stylesheet" href="css/photoswipe.css")
+		link(rel="stylesheet" href="css/default-skin/default-skin.css")
+	body
+		#pics
+			each pic in pics
+				a(href=pic.path data-size=`${pic.dimensions.w}x${pic.dimensions.h}`)
+					img(src=pic.path)
+		include ../includes/photoswipe.tmpl
+		script(src="js/main.js")
