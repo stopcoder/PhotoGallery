@@ -23,6 +23,8 @@
     "photoswipe": "^4.1.1",
     "probe-image-size": "^3.0.0",
     "pug": "^2.0.0-beta6",
+    "sharp": "^0.20.1",
+    "walk": "^2.3.9",
     "whatwg-fetch": "^2.0.1"
   },
   "devDependencies": {
